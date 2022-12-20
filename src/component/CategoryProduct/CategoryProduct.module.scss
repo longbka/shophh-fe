@@ -1,0 +1,40 @@
+.category-container {
+  .category-title {
+    border-bottom: 1px solid #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    #title-btn {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .see-all {
+      font-weight: 500;
+      color: var(--primary);
+    }
+  }
+  .category-body {
+    #product-item {
+      display: flex;
+      justify-content: center;
+      .card-item {
+        width: 16rem;
+        margin: 10px;
+        .price {
+          .initial-price {
+            color: #636b6f;
+            font-size: 16px;
+            font-weight: 600;
+            margin-right: 10px;
+            text-decoration: line-through;
+          }
+          .discount-price {
+            color: var(--red);
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

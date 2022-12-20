@@ -1,0 +1,15 @@
+.main-footer {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 50px 0;
+  padding: 1rem;
+  .content-footer {
+    li {
+      padding-top: 10px;
+      .img-contact {
+        padding-right: 8px;
+        filter: invert(1);
+      }
+    }
+  }
+}

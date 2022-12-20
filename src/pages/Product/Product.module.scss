@@ -1,0 +1,15 @@
+.wrapper {
+  .title {
+    color: var(--text-primary);
+  }
+  .initial-price {
+    color: #636b6f;
+    text-decoration: line-through;
+  }
+  .discount-price {
+    color: var(--red);
+  }
+  .information h5{
+    color: var(--gray);
+  }
+}

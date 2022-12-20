@@ -1,0 +1,39 @@
+.carousel {
+  display: flex;
+}
+.card-item {
+  max-width: 16rem;
+  margin: 0 auto;
+}
+.card-img:hover {
+  width: 200px;
+}
+.price {
+  text-align: center;
+  .initial-price {
+    color: #636b6f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-decoration: line-through;
+  }
+  .discount-price {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.btn-add-to-cart {
+  text-align: center;
+}
+.title-container {
+  display: flex;
+  img {
+    margin:auto 5px;
+  }
+  .title-text {
+    font-weight: 550;
+    font-size: 1.6rem;
+    color: #2a58a9;
+  }
+}
