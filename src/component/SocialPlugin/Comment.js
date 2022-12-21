@@ -1,9 +1,12 @@
 import { FacebookProvider, Comments } from 'react-facebook';
-
-export default function Comment() {
+import { useEffect } from 'react';
+export default function Comment({ href }) {
+  useEffect(() => {
+    console.log('href:', href);
+  }, []);
   return (
     <FacebookProvider appId="869452877828671">
-      <Comments href="https://developers.facebook.com/docs/plugins/comments#configurator" />
+      <Comments href={href} />
     </FacebookProvider>
   );
 }

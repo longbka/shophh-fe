@@ -41,7 +41,7 @@ function Product() {
         </Col>
       </Row>
       <Row>
-        <Comment/>
+        <Comment href={window.location.href} />
       </Row>
     </>
   );
