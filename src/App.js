@@ -9,6 +9,7 @@ import { Fragment } from 'react';
 import DefaultLayout from './layouts/DefaultLayout';
 import { publicRoutes } from './routes';
 import { ToastContainer } from 'react-toastify';
+import Messenger from './component/SocialPlugin/Messenger';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         pauseOnHover
         theme="light"
       />
+      <Messenger />
     </>
   );
 }
